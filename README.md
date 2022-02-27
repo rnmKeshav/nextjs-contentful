@@ -18,5 +18,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Contentful ERD
+## Contentful ERD
+[Link](https://app.diagrams.net/#G13P0Dbt-gbTXSMHbDjzvtphc5tVsGFUle)
+
 <img width="775" alt="Screenshot 2022-02-28 at 3 54 39 AM" src="https://user-images.githubusercontent.com/11366455/155902462-0bd15fcf-83ef-4c46-8ddc-0bfa4dc50e23.png">
