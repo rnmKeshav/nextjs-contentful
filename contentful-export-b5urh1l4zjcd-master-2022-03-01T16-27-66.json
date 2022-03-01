@@ -1,0 +1,7227 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "person",
+        "type": "ContentType",
+        "createdAt": "2021-07-17T14:32:55.167Z",
+        "updatedAt": "2021-07-22T00:53:57.550Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-07-22T00:53:57.550Z",
+        "firstPublishedAt": "2021-07-17T14:32:55.903Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Person",
+      "description": null,
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "company",
+          "name": "Company",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shortBio",
+          "name": "Short Bio",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "email",
+          "name": "Email",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "phone",
+          "name": "Phone",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "facebook",
+          "name": "Facebook",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "twitter",
+          "name": "Twitter",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "github",
+          "name": "Github",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "blogPost",
+        "type": "ContentType",
+        "createdAt": "2021-07-17T14:32:55.210Z",
+        "updatedAt": "2021-07-22T00:57:54.537Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-07-22T00:57:54.537Z",
+        "firstPublishedAt": "2021-07-17T14:32:55.846Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Blog Post",
+      "description": null,
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroImage",
+          "name": "Hero Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "body",
+          "name": "Body",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "publishDate",
+          "name": "Publish Date",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "tags",
+          "name": "Tags",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+              {
+                "in": [
+                  "general",
+                  "javascript",
+                  "static-sites"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "presentTags",
+          "name": "present-tags",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "tags"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "tags",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T00:48:21.552Z",
+        "updatedAt": "2021-07-22T00:48:22.411Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-22T00:48:22.411Z",
+        "firstPublishedAt": "2021-07-22T00:48:22.411Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Tags",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "ctaSimpleCentered",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T13:38:49.713Z",
+        "updatedAt": "2021-07-22T13:45:55.950Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T13:45:55.950Z",
+        "firstPublishedAt": "2021-07-22T13:38:51.663Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "CTA Simple Centered",
+      "description": "Simple section with title subtitle and 2 CTAs",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": 50,
+                "max": 450
+              },
+              "message": "Subtitle has to between 50 and 450 characters in length"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "primaryCta",
+          "name": "Primary CTA",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkContentType": [
+                "link"
+              ],
+              "message": "Add a link to the CTA simple Centered"
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "secondaryCta",
+          "name": "Secondary CTA",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkContentType": [
+                "link"
+              ],
+              "message": "You can only select a link type content for CTA"
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "link",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T13:43:47.506Z",
+        "updatedAt": "2021-07-22T13:43:48.296Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-22T13:43:48.296Z",
+        "firstPublishedAt": "2021-07-22T13:43:48.296Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "url",
+      "name": "Link",
+      "description": "A link component which contains link text and url",
+      "fields": [
+        {
+          "id": "url",
+          "name": "URL",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 1,
+                "max": 30
+              },
+              "message": "Title for a link can only be maximum 30 characters to make sure button looks ok"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "faq",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T13:49:18.962Z",
+        "updatedAt": "2021-07-22T13:49:19.763Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-22T13:49:19.763Z",
+        "firstPublishedAt": "2021-07-22T13:49:19.763Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "question",
+      "name": "FAQ",
+      "description": "FAQ contains a simple question and answer",
+      "fields": [
+        {
+          "id": "question",
+          "name": "Question",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "answer",
+          "name": "Answer",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 50,
+                "max": 600
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "faqsCenteredAccordian",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T13:55:01.676Z",
+        "updatedAt": "2021-07-22T13:55:02.600Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-22T13:55:02.600Z",
+        "firstPublishedAt": "2021-07-22T13:55:02.600Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "FaqsCenteredAccordian",
+      "description": "A list of FAQs which is rendered as a list of question & answers as accordian",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "faq",
+          "name": "FAQ",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 2,
+                "max": 8
+              },
+              "message": "Each FAQ section requires atleast 2 FAQ and maximum 8 FAQs"
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "faq"
+                ],
+                "message": "Only FAQs can be linked to this section"
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "featureGridList",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T14:02:06.570Z",
+        "updatedAt": "2021-07-22T14:06:31.405Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T14:06:31.405Z",
+        "firstPublishedAt": "2021-07-22T14:02:07.396Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Feature Grid List",
+      "description": "List of features showcased as a grid",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": 50,
+                "max": 600
+              },
+              "message": "Subtitle has to be between 50 and 600 characters"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "features",
+          "name": "Features",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 4,
+                "max": 8
+              },
+              "message": "Feature grid list requires atleast 4 features and maximum 8"
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "feature"
+                ],
+                "message": "Only feature content type allowed"
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "feature",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T14:05:13.134Z",
+        "updatedAt": "2021-07-22T14:05:15.468Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-22T14:05:15.468Z",
+        "firstPublishedAt": "2021-07-22T14:05:15.468Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Feature",
+      "description": "Feature for the feature list, not exposed directly",
+      "fields": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "description",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "icon",
+          "name": "icon",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "headerSimpleCentered",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T14:26:27.321Z",
+        "updatedAt": "2021-07-22T14:26:29.637Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-22T14:26:29.637Z",
+        "firstPublishedAt": "2021-07-22T14:26:29.637Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Header Simple Centered",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 100,
+                "max": 2000
+              },
+              "message": "Description supported is maximum 2000 characters"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "landingPage",
+        "type": "ContentType",
+        "createdAt": "2021-07-22T14:31:32.794Z",
+        "updatedAt": "2021-07-22T14:31:34.288Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-22T14:31:34.288Z",
+        "firstPublishedAt": "2021-07-22T14:31:34.288Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Landing Page",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 50,
+                "max": 100
+              },
+              "message": "mimimum 50 characters and maximum 100 characters "
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "sections",
+          "name": "Sections",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": 1,
+                "max": 15
+              },
+              "message": "A single page can only have maximum 15 sections"
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "ctaSimpleCentered",
+                  "faqsCenteredAccordian",
+                  "featureGridList",
+                  "headerSimpleCentered"
+                ],
+                "message": "Only the Content of type sections can be added to landing page"
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "city",
+        "type": "ContentType",
+        "createdAt": "2022-02-25T19:14:12.819Z",
+        "updatedAt": "2022-02-25T20:05:35.250Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2022-02-25T20:05:35.250Z",
+        "firstPublishedAt": "2022-02-25T19:14:13.258Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "City",
+      "description": "Will contain all the cities where pages needs to be made",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "speciality",
+        "type": "ContentType",
+        "createdAt": "2022-02-25T20:09:04.353Z",
+        "updatedAt": "2022-02-25T20:09:04.881Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2022-02-25T20:09:04.881Z",
+        "firstPublishedAt": "2022-02-25T20:09:04.881Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Speciality",
+      "description": "Master speciality list",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "ailments",
+        "type": "ContentType",
+        "createdAt": "2022-02-26T08:59:26.109Z",
+        "updatedAt": "2022-02-26T11:53:18.944Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2022-02-26T11:53:18.944Z",
+        "firstPublishedAt": "2022-02-26T08:59:26.488Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "ailments",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "citySpecialityMap",
+        "type": "ContentType",
+        "createdAt": "2022-02-26T09:26:16.857Z",
+        "updatedAt": "2022-02-26T09:29:04.740Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-26T09:29:04.740Z",
+        "firstPublishedAt": "2022-02-26T09:26:17.397Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "city speciality map",
+      "description": "",
+      "fields": [
+        {
+          "id": "city",
+          "name": "city",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "city"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "speciality",
+          "name": "speciality",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "speciality"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "phoneNumber",
+          "name": "Phone Number",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "specialityAimentMap",
+        "type": "ContentType",
+        "createdAt": "2022-02-26T09:42:57.668Z",
+        "updatedAt": "2022-02-26T09:43:58.271Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2022-02-26T09:43:58.271Z",
+        "firstPublishedAt": "2022-02-26T09:42:58.080Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Speciality aiment map",
+      "description": "",
+      "fields": [
+        {
+          "id": "speciality",
+          "name": "speciality",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "speciality"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "ailment",
+          "name": "ailment",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "ailments"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "semPage",
+        "type": "ContentType",
+        "createdAt": "2022-02-26T10:07:53.586Z",
+        "updatedAt": "2022-02-28T09:07:13.117Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2022-02-28T09:07:13.117Z",
+        "firstPublishedAt": "2022-02-26T10:07:53.987Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "sem page",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "ailment",
+          "name": "ailment",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkContentType": [
+                "ailments"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "heroBannerHeader",
+          "name": "hero banner header",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroBannerContentList",
+          "name": "hero banner content list",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "heroBannerImage",
+          "name": "hero banner image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "content",
+          "name": "content",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "dummyCityList",
+        "type": "ContentType",
+        "createdAt": "2022-02-26T11:49:00.645Z",
+        "updatedAt": "2022-02-26T11:51:13.388Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-26T11:51:13.388Z",
+        "firstPublishedAt": "2022-02-26T11:49:01.109Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Dummy City List",
+      "description": "",
+      "fields": [
+        {
+          "id": "city",
+          "name": "Name",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        },
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "ailmentDescriptionList",
+        "type": "ContentType",
+        "createdAt": "2022-02-28T07:17:00.869Z",
+        "updatedAt": "2022-02-28T07:20:04.369Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-28T07:20:04.369Z",
+        "firstPublishedAt": "2022-02-28T07:17:01.286Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "displayField": "header",
+      "name": "Ailment Description List",
+      "description": "",
+      "fields": [
+        {
+          "id": "header",
+          "name": "header",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "ailment",
+          "name": "ailment",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "ailments"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "description",
+          "name": "description",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
+              "message": "Only bold, italic, underline, and code marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 10,
+        "createdAt": "2021-07-17T14:32:56.033Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T00:53:58.575Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "person",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "sidebar": [
+        {
+          "widgetId": "35f8xJFaJpOUFAKepAWiUj",
+          "widgetNamespace": "app"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "company",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "shortBio",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "email",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "phone",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "facebook",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "twitter",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "github",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2021-07-17T14:32:56.073Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T00:57:55.940Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blogPost",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "sidebar": [
+        {
+          "widgetId": "35f8xJFaJpOUFAKepAWiUj",
+          "widgetNamespace": "app"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "publication-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "content-preview-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "incoming-links-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "translation-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "versions-widget",
+          "widgetNamespace": "sidebar-builtin"
+        },
+        {
+          "settings": {
+          },
+          "widgetId": "users-widget",
+          "widgetNamespace": "sidebar-builtin"
+        }
+      ],
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "publishDate",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "tags",
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "presentTags",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-07-22T00:48:22.494Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T00:48:24.839Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "tags",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-07-22T13:38:51.762Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T13:45:57.068Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "ctaSimpleCentered",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "primaryCta",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "secondaryCta",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-07-22T13:43:48.435Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T13:43:49.760Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "link",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "url",
+          "settings": {
+            "helpText": "Enter the URL for the Link"
+          },
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-07-22T13:49:19.912Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T13:49:21.802Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "faq",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "question",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "answer",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-07-22T13:55:02.686Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T13:55:04.046Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "faqsCenteredAccordian",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "faq",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-07-22T14:02:07.582Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T14:06:33.274Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "featureGridList",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "features",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-07-22T14:05:15.696Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T14:05:17.285Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "feature",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "icon",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-07-22T14:26:29.801Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T14:26:31.788Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "headerSimpleCentered",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-07-22T14:31:34.554Z",
+        "createdBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-07-22T14:31:36.259Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5dfRZLP4hLqdlvZ6KW0R64",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "landingPage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "settings": {
+            "helpText": "This field is not shown in UI, it describes the page you are building so that others can understand"
+          },
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "slug is auto generated from title",
+            "trackingFieldId": "title"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "sections",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 12,
+        "createdAt": "2022-02-25T19:14:13.326Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-25T20:05:36.546Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "city",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "settings": {
+            "helpText": "Name of the city"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "Slug for the city name"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2022-02-25T20:09:04.955Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-25T20:09:05.746Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "speciality",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 10,
+        "createdAt": "2022-02-26T08:59:26.558Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-26T11:53:19.677Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "ailments",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2022-02-26T09:26:17.466Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-26T09:29:05.579Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "citySpecialityMap",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "city",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "speciality",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "phoneNumber",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2022-02-26T09:42:58.128Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-26T09:43:59.471Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "specialityAimentMap",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "speciality",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "ailment",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2022-02-26T10:07:54.093Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-28T09:07:14.484Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "semPage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "trackingFieldId": "title"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "ailment",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroBannerHeader",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroBannerContentList",
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroBannerImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2022-02-26T11:49:01.170Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-26T11:51:14.184Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "dummyCityList",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "city",
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b5urh1l4zjcd",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2022-02-28T07:17:01.351Z",
+        "createdBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-02-28T07:20:05.183Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7wdOMNOhrzIUejDJGJd1q6",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "ailmentDescriptionList",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "header",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "ailment",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "3K9b0esdy0q0yGqgW2g6Ke",
+        "type": "Entry",
+        "createdAt": "2021-07-17T14:32:57.792Z",
+        "updatedAt": "2021-07-22T00:55:58.079Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-17T14:32:58.814Z",
+        "firstPublishedAt": "2021-07-17T14:32:58.814Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Hello world"
+        },
+        "slug": {
+          "en-US": "hello-world"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6Od9v3wzLOysiMum0Wkmme"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API."
+        },
+        "body": {
+          "en-US": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "15jwOBqpxqSAOy2eOO4S0m"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2017-05-15T00:00+02:00"
+        },
+        "tags": {
+          "en-US": [
+            "general"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "2PtC9h1YqIA6kaUaIsWEQ0",
+        "type": "Entry",
+        "createdAt": "2021-07-17T14:32:57.814Z",
+        "updatedAt": "2021-07-22T00:59:06.095Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-07-17T14:32:58.784Z",
+        "firstPublishedAt": "2021-07-17T14:32:58.784Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Static sites are great"
+        },
+        "slug": {
+          "en-US": "static-sites-are-great"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4NzwDSDlGECGIiokKomsyI"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Worry less about security, caching, and talking to the server. Static sites are the new thing."
+        },
+        "body": {
+          "en-US": "## The case for the static site generator\n\nMore and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.\n\nIt just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.\n\nMoreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.\n\n## Content APIs to the rescue\n\nAn alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a [Content Management as a Service (CMaaS)](https://www.contentful.com/r/knowledgebase/content-as-a-service/ \"Content Management as a Service (CMaaS)\") world, with a content API to deliver all your content. That way, you get the all the [benefits of content management features](http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms \"benefits of content management features\") while still being able to embrace the static site generator mantra.\n\nIt so happens that Contentful is offering just that kind of content API. A service that\n\n* from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.\n* offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.\n* separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").\n* offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.\n\nExtracted from the article [CMS-functionality for static site generators](https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/ \"CMS-functionality for static site generators\"). Read more about the [static site generators supported by Contentful](https://www.contentful.com/developers/docs/tools/staticsitegenerators/ \"static site generators supported by Contentful\")."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "15jwOBqpxqSAOy2eOO4S0m"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2017-05-16T00:00+02:00"
+        },
+        "tags": {
+          "en-US": [
+            "javascript",
+            "static-sites"
+          ]
+        },
+        "presentTags": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7uQwZoEyHRr9a8tbjgpmgj"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2SwLRjNCNtLCHz5XikeRTp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "31TNnjHlfaGUoMOwU0M2og",
+        "type": "Entry",
+        "createdAt": "2021-07-17T14:32:58.066Z",
+        "updatedAt": "2021-07-22T01:28:40.499Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T01:28:40.499Z",
+        "firstPublishedAt": "2021-07-17T14:32:59.249Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Automate with webhooks"
+        },
+        "slug": {
+          "en-US": "automate-with-webhooks"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4shwYI3POEGkw0Eg6kcyaQ"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint."
+        },
+        "body": {
+          "en-US": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\")."
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "15jwOBqpxqSAOy2eOO4S0m"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2017-05-12T00:00+02:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "15jwOBqpxqSAOy2eOO4S0m",
+        "type": "Entry",
+        "createdAt": "2021-07-17T14:32:58.168Z",
+        "updatedAt": "2021-07-21T13:54:28.960Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-07-21T13:54:28.960Z",
+        "firstPublishedAt": "2021-07-17T14:32:59.129Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "person"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Cherry Mccutie"
+        },
+        "title": {
+          "en-US": "Web Developer"
+        },
+        "company": {
+          "en-US": "ACME"
+        },
+        "shortBio": {
+          "en-US": "Research and recommendations for modern stack websites."
+        },
+        "email": {
+          "en-US": "john@doe.com"
+        },
+        "phone": {
+          "en-US": "0176 / 1234567"
+        },
+        "facebook": {
+          "en-US": "johndoe"
+        },
+        "twitter": {
+          "en-US": "johndoe"
+        },
+        "github": {
+          "en-US": "johndoe"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7orLdboQQowIUs22KAW4U"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "7uQwZoEyHRr9a8tbjgpmgj",
+        "type": "Entry",
+        "createdAt": "2021-07-22T00:50:05.221Z",
+        "updatedAt": "2021-07-22T00:50:18.734Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T00:50:18.734Z",
+        "firstPublishedAt": "2021-07-22T00:50:18.734Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "tags"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Technology"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "2SwLRjNCNtLCHz5XikeRTp",
+        "type": "Entry",
+        "createdAt": "2021-07-22T00:50:33.322Z",
+        "updatedAt": "2021-07-22T00:50:55.417Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-22T00:50:55.417Z",
+        "firstPublishedAt": "2021-07-22T00:50:55.417Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "tags"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Startup"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "3HvgjhDLC8gFoXKzjop5xt",
+        "type": "Entry",
+        "createdAt": "2021-07-22T00:51:02.591Z",
+        "updatedAt": "2021-07-22T00:51:12.849Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-22T00:51:12.849Z",
+        "firstPublishedAt": "2021-07-22T00:51:12.849Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "tags"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Personal"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4zWrnNOZcu17fMpfWOOVry",
+        "type": "Entry",
+        "createdAt": "2021-07-22T11:42:08.451Z",
+        "updatedAt": "2021-07-22T12:39:19.647Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 16,
+        "publishedAt": "2021-07-22T11:59:30.405Z",
+        "firstPublishedAt": "2021-07-22T11:59:30.405Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "My current podcast list"
+        },
+        "slug": {
+          "en-US": "my-current-podcast-list"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7CqttuuUDyQNl37TL3vOch"
+            }
+          }
+        },
+        "description": {
+          "en-US": "After trying podcasts on and off, I boarded the podcast train completely last year. Now all my commute time is spent listening to some fantastic podcasts.\n"
+        },
+        "body": {
+          "en-US": "__After trying podcasts on and off, I boarded the podcast train completely last year. Now all my commute time is spent listening to some fantastic podcasts.__\n\nHere is the list of my favourite podcasts currently -\n\n[Accidental Tech Podcast](http://atp.fm/ \"ATP\") - First podcast I subscribed to after installing overcast my podcast player of choice. This podcast by Overcast creator Marco Arment, along with Casey Liss, and John Siracusa is for avid apple fans.\n\n[99% invisible](https://99percentinvisible.org/) - Absolutely fantastic podcast about design which tells great stories. 99% Invisible is about all the thought that goes into the things we don’t think about — the unnoticed architecture and design that shape our world.\n\n[Internet History Podcast](http://www.internethistorypodcast.com/) - A History Of The Internet Era From Netscape To The iPad. Some fantastic interviews from the past which is very interesting if you love history and internet.\n\n[Random Trek](https://www.theincomparable.com/randomtrek/) - A weekly podcast in which Scott McNulty discusses a randomly selected episode of “Star Trek” — all series, all seasons — with a non-random guest.\n\n[This American Life](https://www.thisamericanlife.org/) - This American Life is a weekly public radio program and podcast. Each week we choose a theme and put together different kinds of stories on that theme. This American Life is must listen, with 2.2 listeners what more I need to say.\n\n[Decoder Ring](http://www.slate.com/articles/podcasts/decoder_ring.html) - Lastly latest edition to my list Decoder ring explains a culture phenomenon and demystifies it. This podcast from slate only had two episodes so far, but I am early waiting for next one.\n\nApart from this, I am subscribed to a lot more podcast, but these i enjoy the most.\n"
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "68yd4ilKpXZ6doBSzva7Zv"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2021-07-22T00:00+05:30"
+        },
+        "presentTags": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7uQwZoEyHRr9a8tbjgpmgj"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "68yd4ilKpXZ6doBSzva7Zv",
+        "type": "Entry",
+        "createdAt": "2021-07-22T11:46:40.256Z",
+        "updatedAt": "2021-07-22T11:47:25.615Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-07-22T11:47:25.615Z",
+        "firstPublishedAt": "2021-07-22T11:47:25.615Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "person"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Abhinav Lal"
+        },
+        "title": {
+          "en-US": "Abhinav Lal"
+        },
+        "company": {
+          "en-US": "Lal Work"
+        },
+        "shortBio": {
+          "en-US": "Lal is the Abhinav of Lal"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "78V5qJKgjS376G1klOrfVw",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:32:08.925Z",
+        "updatedAt": "2021-08-02T11:58:19.765Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2021-08-02T11:58:19.765Z",
+        "firstPublishedAt": "2021-07-22T14:33:31.780Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "headerSimpleCentered"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Practo's solution for Clinics"
+        },
+        "subtitle": {
+          "en-US": "Take control of your business"
+        },
+        "description": {
+          "en-US": "Start building for free, then add a site plan to go live. Account plans unlock additional features. Practo Ray is used by more than 15000 doctors."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4zoHR5uP2XKrneKTFxnsbu",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:35:45.440Z",
+        "updatedAt": "2021-07-22T14:37:02.717Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T14:37:02.717Z",
+        "firstPublishedAt": "2021-07-22T14:37:02.717Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faq"
+          }
+        }
+      },
+      "fields": {
+        "question": {
+          "en-US": "Will Ray help me get more patients?"
+        },
+        "answer": {
+          "en-US": "No. Ray is a practice management software and not an advertising product. It helps in managing your practice better and offering a seamless experience to your patients.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4vdLitJjY4OobdJTvjfxZK",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:37:26.773Z",
+        "updatedAt": "2021-07-22T14:40:06.421Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-07-22T14:40:06.421Z",
+        "firstPublishedAt": "2021-07-22T14:40:06.421Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ctaSimpleCentered"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Ready to dive in?"
+        },
+        "subtitle": {
+          "en-US": "Start your free trial today. No Credit Card required."
+        },
+        "primaryCta": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "79frxJDVzCB9OscFjAFHD5"
+            }
+          }
+        },
+        "secondaryCta": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3Upb9Kw43bqH1zY8sZZrML"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "79frxJDVzCB9OscFjAFHD5",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:38:07.563Z",
+        "updatedAt": "2021-07-22T14:38:36.549Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-07-22T14:38:36.549Z",
+        "firstPublishedAt": "2021-07-22T14:38:36.549Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "link"
+          }
+        }
+      },
+      "fields": {
+        "url": {
+          "en-US": "https://www.practo.com"
+        },
+        "title": {
+          "en-US": "Know More"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "3Upb9Kw43bqH1zY8sZZrML",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:38:59.715Z",
+        "updatedAt": "2021-07-22T14:39:14.560Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T14:39:14.560Z",
+        "firstPublishedAt": "2021-07-22T14:39:14.560Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "link"
+          }
+        }
+      },
+      "fields": {
+        "url": {
+          "en-US": "https://www.practo.com/providers/clinics/ray"
+        },
+        "title": {
+          "en-US": "Get Started"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "5U1c64zVV09NAKe8yIy46u",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:40:25.511Z",
+        "updatedAt": "2021-07-22T14:42:50.820Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-07-22T14:42:50.820Z",
+        "firstPublishedAt": "2021-07-22T14:42:50.820Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faqsCenteredAccordian"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "FAQs for Practo Ray"
+        },
+        "faq": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4zoHR5uP2XKrneKTFxnsbu"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7nsMPxCa6Oc4tWdlSnSLAD"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5ZhQPxWI6eALX8aL4CJefX"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1JBdoQm7CV8RbFcmZrlRHH"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "7nsMPxCa6Oc4tWdlSnSLAD",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:41:06.757Z",
+        "updatedAt": "2021-07-22T14:41:46.393Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-07-22T14:41:46.393Z",
+        "firstPublishedAt": "2021-07-22T14:41:46.393Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faq"
+          }
+        }
+      },
+      "fields": {
+        "question": {
+          "en-US": "Is my data safe?"
+        },
+        "answer": {
+          "en-US": "All Practo servers are hosted within HIPAA-compliant Virtual Private Servers inside Amazon Cloud, with multiple data backups. This means that your data is totally safe. Practo is also working with Data Security Council of India for excellence in data privacy. To read more about our data security measures, please [click here.](https://help.practo.com/security/data-security-measures/)"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "5ZhQPxWI6eALX8aL4CJefX",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:41:57.274Z",
+        "updatedAt": "2021-07-22T14:42:15.107Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T14:42:15.107Z",
+        "firstPublishedAt": "2021-07-22T14:42:15.107Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faq"
+          }
+        }
+      },
+      "fields": {
+        "question": {
+          "en-US": "Will Practo help me migrate from my existing software?"
+        },
+        "answer": {
+          "en-US": "Yes, certainly. Our support team will help in migrating your data from your existing software to Ray."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "1JBdoQm7CV8RbFcmZrlRHH",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:42:26.668Z",
+        "updatedAt": "2021-07-22T14:42:41.335Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T14:42:41.335Z",
+        "firstPublishedAt": "2021-07-22T14:42:41.335Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "faq"
+          }
+        }
+      },
+      "fields": {
+        "question": {
+          "en-US": "Will Practo customise the software for me?"
+        },
+        "answer": {
+          "en-US": "Ray is a feature-rich software and has been built with a lot of research and feedback from doctors across the country. Immense effort has been put to ensure that Ray has features that suit the needs of all practices. Even though we do not sell customised software for individual doctors, our team does add new features continually, based on popular demand."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "ZtcHgLXERKCEjsrFqaQRw",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:43:23.278Z",
+        "updatedAt": "2021-07-22T14:46:55.416Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-07-22T14:46:55.416Z",
+        "firstPublishedAt": "2021-07-22T14:46:55.416Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "featureGridList"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Do more with Practo Prime "
+        },
+        "subtitle": {
+          "en-US": "A technology product for clinics and hospitals which lets them deliver an exceptional visit experience to patients."
+        },
+        "features": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4687i1K5VDz5XPXnpr0tO7"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4Vs61WoxNtaxzd2ZRb0VtU"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2ubIgRQsNgUEuYP5AYlB9Z"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1rkHK0cydC8QXFppp9qx8V"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4687i1K5VDz5XPXnpr0tO7",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:44:44.196Z",
+        "updatedAt": "2021-07-22T14:45:32.211Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-07-22T14:45:32.211Z",
+        "firstPublishedAt": "2021-07-22T14:45:32.211Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "feature"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Deliver a great visit experience to patients with assured benefits"
+        },
+        "description": {
+          "en-US": "15 min wait time 24*7 instant online booking Continuity of care via free follow-up consults Assured meeting with the doctor booked"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4Vs61WoxNtaxzd2ZRb0VtU",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:45:39.636Z",
+        "updatedAt": "2021-07-22T14:45:55.337Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-22T14:45:55.337Z",
+        "firstPublishedAt": "2021-07-22T14:45:55.337Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "feature"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Get access to our award-winning practice management software"
+        },
+        "description": {
+          "en-US": "Get free access to Ray, with an added online appointment booking functionality to significantly improve efficiency."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "2ubIgRQsNgUEuYP5AYlB9Z",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:46:05.366Z",
+        "updatedAt": "2021-07-22T14:46:17.137Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-22T14:46:17.137Z",
+        "firstPublishedAt": "2021-07-22T14:46:17.137Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "feature"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Smart calling system"
+        },
+        "description": {
+          "en-US": "Get a superior voice calling experience through Practo VN - a Virtual number technology - that auto-reconnects on call failure, records conversations for providers to access the calls later and more with a secure Prime dashboard."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "1rkHK0cydC8QXFppp9qx8V",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:46:26.539Z",
+        "updatedAt": "2021-07-22T14:46:38.061Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-22T14:46:38.061Z",
+        "firstPublishedAt": "2021-07-22T14:46:38.061Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "feature"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Pay a one-time technology fee"
+        },
+        "description": {
+          "en-US": "The clinic/hospital is charged a one time technology fee the first time a patient uses our technology to connect with the clinic or hospital."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4x6bLauHsuKALEP37tlhG",
+        "type": "Entry",
+        "createdAt": "2021-07-22T14:47:31.679Z",
+        "updatedAt": "2021-08-02T12:04:28.366Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2021-07-27T03:17:57.061Z",
+        "firstPublishedAt": "2021-07-22T14:50:02.563Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 17,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "landingPage"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Practo Ray Prime Hybrid "
+        },
+        "description": {
+          "en-US": "This is a sample page which in general talks about Practo Ray and Prime."
+        },
+        "slug": {
+          "en-US": "practo-ray-prime-hybrid"
+        },
+        "sections": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "78V5qJKgjS376G1klOrfVw"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "ZtcHgLXERKCEjsrFqaQRw"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4vdLitJjY4OobdJTvjfxZK"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5U1c64zVV09NAKe8yIy46u"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "56UNrp8dbMvmKwQ4fVTNdx",
+        "type": "Entry",
+        "createdAt": "2022-02-25T20:05:44.317Z",
+        "updatedAt": "2022-02-26T09:31:53.473Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-26T09:31:53.473Z",
+        "firstPublishedAt": "2022-02-26T09:31:53.473Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "city"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Bangalore"
+        },
+        "slug": {
+          "en-US": "bangalore"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "6dVqThACO7jRmuIm8fbgGK",
+        "type": "Entry",
+        "createdAt": "2022-02-25T20:06:04.717Z",
+        "updatedAt": "2022-02-26T09:31:53.505Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2022-02-26T09:31:53.505Z",
+        "firstPublishedAt": "2022-02-26T09:31:53.505Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "city"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Delhi Ncr"
+        },
+        "slug": {
+          "en-US": "delhi-ncr"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "hyXW1sBpMfdLR0L18Qsj1",
+        "type": "Entry",
+        "createdAt": "2022-02-25T20:09:29.923Z",
+        "updatedAt": "2022-02-26T09:31:53.534Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-02-26T09:31:53.534Z",
+        "firstPublishedAt": "2022-02-26T09:31:53.534Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "speciality"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "General Surgeon"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4nfFSXQRC49avZgYzIV7lQ",
+        "type": "Entry",
+        "createdAt": "2022-02-25T20:10:07.279Z",
+        "updatedAt": "2022-02-26T09:31:53.564Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-02-26T09:31:53.564Z",
+        "firstPublishedAt": "2022-02-26T09:31:53.564Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "speciality"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "gynaecology"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "6E9g4KOd1KtagaSVQVMVdG",
+        "type": "Entry",
+        "createdAt": "2022-02-26T09:00:12.814Z",
+        "updatedAt": "2022-02-26T11:52:50.711Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-26T09:31:53.583Z",
+        "firstPublishedAt": "2022-02-26T09:31:53.583Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ailments"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "piles "
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "3W5ZtT1yF4UWHAyRn8WC1N",
+        "type": "Entry",
+        "createdAt": "2022-02-26T09:14:17.330Z",
+        "updatedAt": "2022-02-26T09:31:53.744Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2022-02-26T09:31:53.744Z",
+        "firstPublishedAt": "2022-02-26T09:31:53.744Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ailments"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "anal fissure"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "3TKFZ6779GsJsTAMZAWg09",
+        "type": "Entry",
+        "createdAt": "2022-02-26T09:26:25.634Z",
+        "updatedAt": "2022-02-26T09:34:48.464Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2022-02-26T09:34:48.464Z",
+        "firstPublishedAt": "2022-02-26T09:34:48.464Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "citySpecialityMap"
+          }
+        }
+      },
+      "fields": {
+        "city": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "56UNrp8dbMvmKwQ4fVTNdx"
+            }
+          }
+        },
+        "speciality": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "hyXW1sBpMfdLR0L18Qsj1"
+            }
+          }
+        },
+        "phoneNumber": {
+          "en-US": "9000000001"
+        },
+        "title": {
+          "en-US": "Bangalore General surgeon"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "5wETytPEkwUSYkrEYWHyWR",
+        "type": "Entry",
+        "createdAt": "2022-02-26T09:41:18.467Z",
+        "updatedAt": "2022-02-26T09:41:40.224Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-26T09:41:40.224Z",
+        "firstPublishedAt": "2022-02-26T09:41:40.224Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ailments"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "cyst surgery"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "1Q2LHzOv2qW8Mrn3r4au3j",
+        "type": "Entry",
+        "createdAt": "2022-02-26T09:43:10.428Z",
+        "updatedAt": "2022-02-26T09:44:20.468Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2022-02-26T09:43:26.851Z",
+        "firstPublishedAt": "2022-02-26T09:43:26.851Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "specialityAimentMap"
+          }
+        }
+      },
+      "fields": {
+        "speciality": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "hyXW1sBpMfdLR0L18Qsj1"
+            }
+          }
+        },
+        "ailment": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3W5ZtT1yF4UWHAyRn8WC1N"
+            }
+          }
+        },
+        "title": {
+          "en-US": "general surgeon anal fissure"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "1sXruoxoAwatLosjlye315",
+        "type": "Entry",
+        "createdAt": "2022-02-26T09:44:34.773Z",
+        "updatedAt": "2022-02-26T09:45:05.425Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-26T09:45:05.425Z",
+        "firstPublishedAt": "2022-02-26T09:45:05.425Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "specialityAimentMap"
+          }
+        }
+      },
+      "fields": {
+        "speciality": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "hyXW1sBpMfdLR0L18Qsj1"
+            }
+          }
+        },
+        "ailment": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6E9g4KOd1KtagaSVQVMVdG"
+            }
+          }
+        },
+        "title": {
+          "en-US": "general surgeon piles"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4TM4UvkOmkS7fFqbC7yDpu",
+        "type": "Entry",
+        "createdAt": "2022-02-26T09:45:25.040Z",
+        "updatedAt": "2022-02-26T09:45:58.936Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-26T09:45:58.936Z",
+        "firstPublishedAt": "2022-02-26T09:45:58.936Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "specialityAimentMap"
+          }
+        }
+      },
+      "fields": {
+        "speciality": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4nfFSXQRC49avZgYzIV7lQ"
+            }
+          }
+        },
+        "ailment": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5wETytPEkwUSYkrEYWHyWR"
+            }
+          }
+        },
+        "title": {
+          "en-US": "gynaecology cyst surgery"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "5MJXnUhm5FyOvREnFkmZhv",
+        "type": "Entry",
+        "createdAt": "2022-02-26T10:08:12.296Z",
+        "updatedAt": "2022-02-28T12:14:42.262Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-02-26T10:14:03.139Z",
+        "firstPublishedAt": "2022-02-26T10:14:03.139Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "semPage"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "piles treatment "
+        },
+        "slug": {
+          "en-US": "piles-treatment"
+        },
+        "ailment": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6E9g4KOd1KtagaSVQVMVdG"
+            }
+          }
+        },
+        "heroBannerHeader": {
+          "en-US": "Advanced Surgical Care for piles"
+        },
+        "heroBannerContentList": {
+          "en-US": [
+            "Expert surgeons with 10+ years of experience",
+            "30-Minute procedure",
+            "All insurance accepted & No-cost EMI available"
+          ]
+        },
+        "heroBannerImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "hZpnf0ZoY36vFBP7aiQJ2"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "2egcNOk6NdilSHN3ChrJnR",
+        "type": "Entry",
+        "createdAt": "2022-02-26T11:49:13.672Z",
+        "updatedAt": "2022-02-26T11:50:51.889Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2022-02-26T11:50:51.889Z",
+        "firstPublishedAt": "2022-02-26T11:50:03.029Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dummyCityList"
+          }
+        }
+      },
+      "fields": {
+        "city": {
+          "en-US": [
+            "Dummy Bangalore",
+            "Dummy Delhi NCR"
+          ]
+        },
+        "title": {
+          "en-US": "Dummy city"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "pCbyI4HVgXhDfFnX7owHm",
+        "type": "Entry",
+        "createdAt": "2022-02-27T22:01:21.899Z",
+        "updatedAt": "2022-02-27T22:03:17.897Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-02-27T22:03:17.897Z",
+        "firstPublishedAt": "2022-02-27T22:03:17.897Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "semPage"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "cyst surgery Delhi"
+        },
+        "slug": {
+          "en-US": "cyst-surgery-delhi"
+        },
+        "ailment": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5wETytPEkwUSYkrEYWHyWR"
+            }
+          }
+        },
+        "heroBannerHeader": {
+          "en-US": "Hero banner for cyst surgery"
+        },
+        "heroBannerImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6odaOMZt43uRNtP0KHR1mG"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "5E7GthHCgbTtay737oaWCX",
+        "type": "Entry",
+        "createdAt": "2022-02-27T22:04:14.665Z",
+        "updatedAt": "2022-02-27T22:04:48.989Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-02-27T22:04:48.989Z",
+        "firstPublishedAt": "2022-02-27T22:04:34.814Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "citySpecialityMap"
+          }
+        }
+      },
+      "fields": {
+        "city": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6dVqThACO7jRmuIm8fbgGK"
+            }
+          }
+        },
+        "speciality": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4nfFSXQRC49avZgYzIV7lQ"
+            }
+          }
+        },
+        "phoneNumber": {
+          "en-US": "9000000001"
+        },
+        "title": {
+          "en-US": "Delhi Gyanacology"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "1iu2tSVYoeW8hqEjuAaDlz",
+        "type": "Entry",
+        "createdAt": "2022-02-28T07:17:12.593Z",
+        "updatedAt": "2022-02-28T07:20:20.363Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-02-28T07:20:20.363Z",
+        "firstPublishedAt": "2022-02-28T07:18:43.915Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ailmentDescriptionList"
+          }
+        }
+      },
+      "fields": {
+        "header": {
+          "en-US": "What Are Piles"
+        },
+        "ailment": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6E9g4KOd1KtagaSVQVMVdG"
+            }
+          }
+        },
+        "description": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Some test description which is not list",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Piles are ",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "value": "swollen and inflamed veins in the rectum",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": " and anus that cause discomfort and bleeding.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "They are usually caused by ",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "value": "straining during bowel movements, obesity or pregnancy.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "value": "Discomfort is a common symptom",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": ", especially during bowel movements or when sitting. ",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Other ",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "value": "symptoms include itching and bleeding.Medical procedures",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": " to remove the haemorrhoid are often needed to ",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ],
+                            "value": "provide relief.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "6Od9v3wzLOysiMum0Wkmme",
+        "type": "Asset",
+        "createdAt": "2021-07-17T14:32:56.971Z",
+        "updatedAt": "2021-07-22T01:27:35.400Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-22T01:27:35.400Z",
+        "firstPublishedAt": "2021-07-22T01:27:35.400Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Woman with black hat"
+        },
+        "description": {
+          "en-US": "Woman wearing a black hat"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b5urh1l4zjcd/6Od9v3wzLOysiMum0Wkmme/71ded6c55655e62d53abd744db03df36/cameron-kirby-88711.jpg",
+            "details": {
+              "size": 7316629,
+              "image": {
+                "width": 3000,
+                "height": 2000
+              }
+            },
+            "fileName": "cameron-kirby-88711.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "7orLdboQQowIUs22KAW4U",
+        "type": "Asset",
+        "createdAt": "2021-07-17T14:32:57.057Z",
+        "updatedAt": "2021-07-21T13:54:49.875Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-21T13:54:49.875Z",
+        "firstPublishedAt": "2021-07-21T13:54:49.875Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sparkler"
+        },
+        "description": {
+          "en-US": "John with Sparkler"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b5urh1l4zjcd/7orLdboQQowIUs22KAW4U/3c914b9ffa57e73a8406bc36039aaa71/matt-palmer-254999.jpg",
+            "details": {
+              "size": 2293094,
+              "image": {
+                "width": 3000,
+                "height": 2000
+              }
+            },
+            "fileName": "matt-palmer-254999.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "4shwYI3POEGkw0Eg6kcyaQ",
+        "type": "Asset",
+        "createdAt": "2021-07-17T14:32:57.061Z",
+        "updatedAt": "2021-07-22T01:28:32.055Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-07-22T01:28:32.055Z",
+        "firstPublishedAt": "2021-07-22T01:28:32.055Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Man in the fields"
+        },
+        "description": {
+          "en-US": "Tattooed man walking in a field"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b5urh1l4zjcd/4shwYI3POEGkw0Eg6kcyaQ/8ec5e7b0d8fbae52ca0ee4f452d10c7e/felix-russell-saw-112140.jpg",
+            "details": {
+              "size": 4539181,
+              "image": {
+                "width": 2500,
+                "height": 1667
+              }
+            },
+            "fileName": "felix-russell-saw-112140.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "7CqttuuUDyQNl37TL3vOch",
+        "type": "Asset",
+        "createdAt": "2021-07-22T11:43:34.077Z",
+        "updatedAt": "2021-07-22T11:44:11.157Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-07-22T11:44:11.157Z",
+        "firstPublishedAt": "2021-07-22T11:44:11.157Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "podcast-icon"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b5urh1l4zjcd/7CqttuuUDyQNl37TL3vOch/a5abe82387ffa5a9a61338d838231f5f/Unknown",
+            "details": {
+              "size": 2254,
+              "image": {
+                "width": 308,
+                "height": 163
+              }
+            },
+            "fileName": "Unknown",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "hZpnf0ZoY36vFBP7aiQJ2",
+        "type": "Asset",
+        "createdAt": "2022-02-26T10:10:14.077Z",
+        "updatedAt": "2022-02-26T10:13:49.146Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2022-02-26T10:13:49.146Z",
+        "firstPublishedAt": "2022-02-26T10:13:49.146Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "banner image"
+        },
+        "description": {
+          "en-US": "Dravid and Doctor"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b5urh1l4zjcd/hZpnf0ZoY36vFBP7aiQJ2/9be7204b47e0178a5d6257937c3613f2/celebrity_image.96c17d44670c.png",
+            "details": {
+              "size": 568650,
+              "image": {
+                "width": 1404,
+                "height": 1448
+              }
+            },
+            "fileName": "celebrity_image.96c17d44670c.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "id": "6odaOMZt43uRNtP0KHR1mG",
+        "type": "Asset",
+        "createdAt": "2022-02-27T22:02:26.101Z",
+        "updatedAt": "2022-02-27T22:02:57.793Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-02-27T22:02:57.793Z",
+        "firstPublishedAt": "2022-02-27T22:02:57.793Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7wdOMNOhrzIUejDJGJd1q6"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Female doctor with dravis"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b5urh1l4zjcd/6odaOMZt43uRNtP0KHR1mG/cb7896eaf7dd5a1aa01724d8f1793aa8/pcs_female_celebrity.6dc0deaba32b.png",
+            "details": {
+              "size": 547012,
+              "image": {
+                "width": 1404,
+                "height": 1448
+              }
+            },
+            "fileName": "pcs_female_celebrity.6dc0deaba32b.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "60BwX5tZD4IkzGMmhQPPSw",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "31397834-6298-424d-abf8-14cd6c749787"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "createdAt": "2021-07-17T14:32:43Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedAt": "2021-07-17T14:32:43Z"
+      }
+    }
+  ],
+  "webhooks": [
+    {
+      "name": "Gatsby Builds",
+      "url": "https://webhook.gatsbyjs.com/hooks/data_source/publish/ab85f25e-8da7-4ce3-9443-7b7e89fcd405",
+      "httpBasicUsername": null,
+      "topics": [
+        "ContentType.publish",
+        "Entry.publish",
+        "Asset.publish",
+        "ContentType.unpublish",
+        "Entry.unpublish",
+        "Asset.unpublish"
+      ],
+      "filters": null,
+      "transformation": null,
+      "active": true,
+      "sys": {
+        "type": "WebhookDefinition",
+        "id": "gatsby-builds",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "createdAt": "2021-07-21T14:43:34Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedAt": "2022-02-08T13:41:07Z"
+      },
+      "headers": [
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "60CcvPqqeuPk1s4zihxotq",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b5urh1l4zjcd"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "createdAt": "2021-07-17T14:32:43Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5dfRZLP4hLqdlvZ6KW0R64"
+          }
+        },
+        "updatedAt": "2021-07-17T14:32:43Z"
+      }
+    }
+  ]
+}
