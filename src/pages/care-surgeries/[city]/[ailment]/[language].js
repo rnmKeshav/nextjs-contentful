@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
-import DoctorsList from '../../../../components/DoctorsList';
+import DoctorsList from '../../../../modules/sem/components/DoctorsList';
 
-import EarlyTreatment from '../../../../components/EarlyTreatment';
-import Form from '../../../../components/Form';
-import HeroImage from '../../../../components/HeroImage';
+import EarlyTreatment from '../../../../modules/sem/components/EarlyTreatment';
+import Form from '../../../../modules/sem/components/Form';
+import HeroImage from '../../../../modules/sem/components/HeroImage';
 
-import client from '../../../../config/contentful';
+import client from '../../../../../config/contentful';
 
 export default function AilmentPage(props) {
 
