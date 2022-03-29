@@ -18,10 +18,10 @@ export default function Form(props) {
       <div style={{display: "flex", flexWrap: "wrap"}}>
 
       {
-        cities.map(({ fields }) => {
+        cities.map(({ fields }, index) => {
         // console.log("🚀 ~ file: Form.jsx ~ line 20 ~ cities.map ~ fields", fields)
 
-          return ( <span style={{flex: "33%"}}>
+          return ( <span key={index} style={{flex: "33%"}}>
             <input type="radio" id={fields.name} />
             <label htmlFor={fields.name}>{fields.name}</label>
             </span>

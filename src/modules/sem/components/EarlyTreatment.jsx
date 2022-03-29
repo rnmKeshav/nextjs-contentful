@@ -8,7 +8,7 @@ export default function EarlyTreatment(props) {
   return (
     <section id="early-treatment">
       <h2>{whyEarlyTreatmentHeader}</h2>
-      <p>{documentToReactComponents(whyEarlyTreatmentDescription)}</p>
+      {/* <p>{documentToReactComponents(whyEarlyTreatmentDescription)}</p> */}
     </section>
   )
 }

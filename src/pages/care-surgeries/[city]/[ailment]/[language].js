@@ -1,81 +1,73 @@
 import Image from 'next/image';
 import React from 'react';
-import DoctorsList from '../../../../modules/sem/components/DoctorsList';
+import { useSelector } from 'react-redux';
+import dynamic from 'next/dynamic';
 
-import EarlyTreatment from '../../../../modules/sem/components/EarlyTreatment';
-import Form from '../../../../modules/sem/components/Form';
-import HeroImage from '../../../../modules/sem/components/HeroImage';
+import EarlyTreatment from '../../../../modules/sem/containers/EarlyTreatment';
+import Form from '../../../../modules/sem/containers/Form';
+import HeroImage from '../../../../modules/sem/containers/HeroImage';
 
 import client from '../../../../../config/contentful';
+import { wrapper } from '../../../../store';
+import { updateSEMPageData  } from '../../../../modules/sem/ducks/actions'
+
+const DoctorsList = dynamic(() => import(/* webpackChunkName: "DoctorsList" */ '../../../../modules/sem/containers/DoctorsList'), {
+  loading: () => <p>Doctors List loading..</p>,
+  ssr: false
+})
 
 export default function AilmentPage(props) {
 
-  const { staticEntries, dynamicEntries  } = props.fields;
+  const { staticEntries } = props.fields;
   const { fields: staticEntryFields } = staticEntries;
-  const { fields: dynamicEntryFields } = dynamicEntries;
 
-  const { formHeader, formNamePlaceholderText, formPhonePlaceholderText, cityPickerHeaderText, 
-    moreCitySelectorCtaText, formButtonCtaText, promotionalBanner  } = staticEntryFields || {};
+  const semPage = useSelector((state) => state.semPage)
 
-  const { heroBanner, city, whyEarlyTreatmentDescription, whyEarlyTreatmentHeader, popularDoctorHeader, 
-    popularDoctorDescription, doctorList, city: cities } = dynamicEntryFields || {};
+  const { formHeader, promotionalBanner } = staticEntryFields || {};
 
-    const { fields: { file: { url, details:{ image: {height, width} } } } } = promotionalBanner;
+  const { fields: { file: { url, details: { image: { height, width } } } } } = promotionalBanner;
 
-    return (
+  return (
     <div className="ailment-page">
-      <HeroImage heroBanner={heroBanner} />
-      <div style={{margin: "0 20px"}}>
-      <h2>{formHeader}</h2> 
-      <Form 
-        formNamePlaceholderText={formNamePlaceholderText} 
-        formPhonePlaceholderText={formPhonePlaceholderText} 
-        cityPickerHeaderText={cityPickerHeaderText}
-        cities={cities}
-        moreCitySelectorCtaText={moreCitySelectorCtaText}
-        formButtonCtaText={formButtonCtaText}
-      />
-      <Image src={`https:${url}`} alt="Promotion Banner" width={width} height={height  } />
-      <EarlyTreatment 
-        whyEarlyTreatmentHeader={whyEarlyTreatmentHeader} 
-        whyEarlyTreatmentDescription={whyEarlyTreatmentDescription}
-      />
-      <DoctorsList
-        popularDoctorDescription={popularDoctorDescription}
-        list={doctorList}
-      />
+      <HeroImage />
+      <div style={{ margin: "0 20px" }}>
+        <h2>{formHeader}</h2>
+        <Form />
+        <Image src={`https:${url}`} alt="Promotion Banner" width={width} height={height} />
+        <EarlyTreatment />
+        <DoctorsList />
       </div>
     </div>
   )
 }
 
-export const getStaticPaths = async() => {
+// export const getStaticPaths = async() => {
 
-  const entries = await client.getEntries({
-    content_type: 'cityAilmentLanguages'
-  })
+//   const entries = await client.getEntries({
+//     content_type: 'cityAilmentLanguages'
+//   })
 
-  const paths = entries.items.map(({fields}) => {
+//   const paths = entries.items.map(({fields}) => {
 
-    const { city, language, ailment } = fields;
-    return {
-      params: {
-        city,
-        language, 
-        ailment
-      }
-    }
-  })
+//     const { city, language, ailment } = fields;
+//     return {
+//       params: {
+//         city,
+//         language, 
+//         ailment
+//       }
+//     }
+//   })
 
 
-  return {
-    paths,
-    fallback: false
-  }
+//   return {
+//     paths,
+//     fallback: false
+//   }
 
-}
+// }
 
-export const getStaticProps = async(context) => {
+export const getServerSideProps = wrapper.getServerSideProps((store) => async (context) => {
 
   const { language, ailment, city } = context.params;
 
@@ -88,9 +80,11 @@ export const getStaticProps = async(context) => {
   });
 
   const { fields } = entries.items[0];
+
+  await store.dispatch(updateSEMPageData(fields));
   return {
     props: {
       fields
     }
   }
-}
+})
