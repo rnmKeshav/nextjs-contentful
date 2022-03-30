@@ -41,33 +41,33 @@ export default function AilmentPage(props) {
   )
 }
 
-// export const getStaticPaths = async() => {
+export const getStaticPaths = async() => {
 
-//   const entries = await client.getEntries({
-//     content_type: 'cityAilmentLanguages'
-//   })
+  const entries = await client.getEntries({
+    content_type: 'semPage2'
+  })
 
-//   const paths = entries.items.map(({fields}) => {
+  const paths = entries.items.map(({fields}) => {
 
-//     const { city, language, ailment } = fields;
-//     return {
-//       params: {
-//         city,
-//         language, 
-//         ailment
-//       }
-//     }
-//   })
+    const { city, language, name: ailment } = fields;
 
+    return {
+      params: {
+        city,
+        language, 
+        ailment
+      }
+    }
+  })
 
-//   return {
-//     paths,
-//     fallback: false
-//   }
+  return {
+    paths,
+    fallback: false
+  }
 
-// }
+}
 
-export const getServerSideProps = wrapper.getServerSideProps((store) => async (context) => {
+export const getStaticProps = wrapper.getStaticProps((store) => async (context) => {
 
   const { language, ailment, city } = context.params;
 
@@ -75,7 +75,7 @@ export const getServerSideProps = wrapper.getServerSideProps((store) => async (c
     content_type: 'semPage2',
     include: 10,
     'fields.language': language,
-    'fields.ailment': ailment,
+    'fields.name': ailment,
     'fields.city': city
   });
 
