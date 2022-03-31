@@ -34,7 +34,7 @@ export default function AilmentPage(props) {
         <h2>{formHeader}</h2>
         <Form />
         <Image src={`https:${url}`} alt="Promotion Banner" width={width} height={height} />
-        <EarlyTreatment />
+        {/* <EarlyTreatment /> */}
         <DoctorsList />
       </div>
     </div>
