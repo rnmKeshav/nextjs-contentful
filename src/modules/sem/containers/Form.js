@@ -8,10 +8,10 @@ const mapStateToProps = (store) => {
   const { formButtonCtaText, formNamePlaceholderText, formPhonePlaceholderText, 
     cityPickerHeaderText, moreCitySelectorCtaText  } = selectStaticEntryFields(store);
 
-  const { city = [] } = selectDynamicEntryFields(store);
+  const { cityList = [] } = selectDynamicEntryFields(store);
 
   return {
-    cities: city,
+    cities: cityList,
     formButtonCtaText,
     formNamePlaceholderText,
     formPhonePlaceholderText,
