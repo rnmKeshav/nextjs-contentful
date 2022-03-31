@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import { createClient } from 'contentful';
 
 export async function getStaticProps() {
@@ -9,20 +9,20 @@ export async function getStaticProps() {
     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN, // delivery API key for the space \
   });
 
-  const semPage = await client.getEntries({content_type: "semPage"});
+  // const semPage = await client.getEntries({content_type: "semPage"});
 
-  let {fields: pageField} = semPage.items[0];
+  // let {fields: pageField} = semPage.items[0];
 
   return {
     props: {
-      fields: pageField
+      // fields: pageField
     }
   }
 }
 
 export default function Home({fields}) {
-  console.log("fields", fields);
-  let {title, heroBannerImage: {fields: {file: {url, details:{image: {height, width}}}}}} = fields;
+  // console.log("fields", fields);
+  // let {title, heroBannerImage: {fields: {file: {url, details:{image: {height, width}}}}}} = fields;
 
   return (
     <div className={styles.container}>
@@ -32,12 +32,12 @@ export default function Home({fields}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <h1>{title}</h1>
+        {/* <h1>{title}</h1>
         <Image 
           src={`https:${url}`}
           width={width}
           height={height}
-        ></Image>
+        ></Image> */}
         </div>
     </div>
   )

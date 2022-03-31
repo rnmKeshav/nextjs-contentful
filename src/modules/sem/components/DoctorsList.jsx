@@ -1,13 +1,14 @@
+import dynamic from 'next/dynamic';
 import React from 'react'
 
 import Doctor from './Doctor';
 
-export default function DoctorsList(props) {
+function DoctorsList(props) {
 
-  const { list = [], popularDoctorDescription } = props;
+  const { list = [], popularDoctorDescription } = props || {};
 
   const { fields } = list;
-  const { doctor: doctors } = fields;
+  const { doctor: doctors = [] } = fields || {};
 
 
   return (
@@ -21,3 +22,5 @@ export default function DoctorsList(props) {
     </section>
   )
 }
+
+export default DoctorsList
