@@ -1,5 +1,3 @@
-import { Provider } from 'react-redux';
-
 import { wrapper } from '../store';
 
 import '../../styles/globals.css'
